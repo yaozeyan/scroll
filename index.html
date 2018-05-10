@@ -1,0 +1,12 @@
+$('.bg3-ul').scroll(function () {
+   var mt = $('.bg3-ul').scrollTop();
+   var mh = $('.bg3-ul').height();
+   var msh =  $('.bg3-ul')[0].scrollHeight;
+   console.log(mt);
+   console.log(mh);
+   console.log(msh);
+   console.log($('.bg3-ul')[0]);
+     if (mt + mh >= msh){
+         // 到底部时触发
+    }
+})
